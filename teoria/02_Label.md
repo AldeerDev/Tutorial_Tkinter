@@ -14,11 +14,11 @@ tk.Label(master, opciones)
 
 ## Opciones más comunes
 
-- **text** &#8594 Texto que se mostrará en el Label.
-- **font** &#8594 Tipo y tamaño de letra. Ej: `('Arial', 14)`.
-- **fg** &#8594 Color del texto.
-- **bg** &#8594 Color de fondo.
-- **image** &#8594 Muestra una imagen en el Label.
-- **width / height** &#8594 Ancho y alto del Label en caracteres o pixeles.
-- **anchor** &#8594 Alineación del texto `(n, s, e, w, center)`.
-- **justify** &#8594 Justificación del texto `(left, center, right)`.
+- **text:** Texto que se mostrará en el Label.
+- **font:** Tipo y tamaño de letra. Ej: `('Arial', 14)`.
+- **fg:** Color del texto.
+- **bg:** Color de fondo.
+- **image:** Muestra una imagen en el Label.
+- **width / height:** Ancho y alto del Label en caracteres o pixeles.
+- **anchor:** Alineación del texto `(n, s, e, w, center)`.
+- **justify:** Justificación del texto `(left, center, right)`.
