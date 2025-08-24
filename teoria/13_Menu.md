@@ -21,3 +21,18 @@ ventana.config(menu=menu)
 - **`add_separator()`** Agrega una línea separadora.
 - **`add_cascade(label='Texto', menu=submenu)`** Agrega un submenú.
 - **`tearoff=0`** Quita la línea punteada que permite 'separar' el menú (se recomienda usarlo).
+
+## Ejemplo básico
+
+```python
+import tkinter as tk
+
+ventana = tk.Tk()
+ventana.title('Ejemplo Menú')
+
+menu_principal = tk.Menu(ventana)
+ventana.config(menu=menu_principal)
+
+archivo = tk.Menu(menu_principal, tearoff=0)
+
+```
